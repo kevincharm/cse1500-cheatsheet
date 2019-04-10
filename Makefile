@@ -1,10 +1,12 @@
+MDBOOK=./mdbook-linux-x86_64
+
 default: serve
 
 serve:
-	mdbook serve
+	$(MDBOOK) serve
 
 build:
-	mdbook build
+	$(MDBOOK) build
 
 clean:
-	mdbook clean
+	$(MDBOOK) clean
