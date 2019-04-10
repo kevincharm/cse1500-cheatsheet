@@ -1,0 +1,5 @@
+[book]
+authors = ["Kevin Tjiam"]
+multilingual = false
+src = "src"
+title = "CSE1500 Cheatsheet"

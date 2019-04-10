@@ -1,0 +1,4 @@
+[build]
+base = "."
+publish = "book"
+command = "make build"
