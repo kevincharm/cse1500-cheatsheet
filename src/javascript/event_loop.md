@@ -26,7 +26,9 @@ Example with asynchronous version of the `readFile` function:
 var contents
 
 // Here, the program does NOT wait until the file is read.
-// Note how `readFile` accepts a callback.
+// The `fs.readFile` function returns *immediately*!
+// Note how `readFile` accepts a callback - this is what gets called
+// when it is finished reading.
 fs.readFile("file.txt", function (err, fileContents) {
     // This function is run AFTER the file reading is done, some time in the future.
     // We don't know when.
