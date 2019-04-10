@@ -27,5 +27,4 @@ var age = person1[AGE_PROPERTY]
 
 // A mix of both:
 var nationality = person1['background'].nationality
-}
 ```
