@@ -9,6 +9,8 @@
     - [Modules](./javascript/modules.md)
     - [Express](./javascript/express.md)
     - [EJS vs Ajax](./javascript/ejs_vs_ajax.md)
+- [CSS](./css.md)
+    - [Selectors](./css/selectors.md)
 - [HTTP](./http.md)
     - [URL](./http/url.md)
     - [Status Codes](./http/status_codes.md)
