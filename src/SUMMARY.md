@@ -6,6 +6,7 @@
     - [Event Loop](./javascript/event_loop.md)
     - [Functions](./javascript/functions.md)
     - [Objects](./javascript/objects.md)
+    - [Express](./javascript/express.md)
 - [HTTP](./http.md)
     - [URL](./http/url.md)
     - [Status Codes](./http/status_codes.md)
