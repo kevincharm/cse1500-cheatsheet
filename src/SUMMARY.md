@@ -12,3 +12,4 @@
 - [Security](./security.md)
     - [Attack Vectors](./security/attack_vectors.md)
     - [DoS](./security/dos.md)
+    - [Encoding vs Encryption](./security/encoding_encryption.md)
