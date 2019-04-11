@@ -8,6 +8,7 @@
 - [HTTP](./http.md)
     - [URL](./http/url.md)
     - [Status Codes](./http/status_codes.md)
+    - [Request Methods](./http/request_methods.md)
 - [Security](./security.md)
     - [Attack Vectors](./security/attack_vectors.md)
     - [DoS](./security/dos.md)

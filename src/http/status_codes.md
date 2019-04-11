@@ -1,6 +1,6 @@
 # Status Codes
 
-Here I'll list the important ones you should know. For everything else: https://http.cat
+Here I'll list the important ones you should know. For everything else, there is [HTTP Cats](https://http.cat).
 
 ## `200`
 The 200s are success codes. It means your GET request was successful, or your POST request was successful and a new account was created, etc.
