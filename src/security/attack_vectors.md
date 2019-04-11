@@ -12,20 +12,18 @@ CSRF is when a [malicious](https://www.merriam-webster.com/dictionary/malicious)
 
 ## XSS (Cross-site Scripting)
 
-XSS is also when a malicious site injects data to your server, but does **not** need authenticated sessions. (So no *forging* required)
+XSS is when a malicious site injects scripts to your server, but does **not** strictly need authenticated sessions.
+
+Example: Users are able to post comments on the site. A malicious user posts a comment containing the following content:
+```js
+<script>alert('lol')</script>
+```
+Once posted, the server displays the comment as it is, *without sanitising it*. Now when other users see this comment, they will get a rude message box saying "lol".
 
 ### How to prevent XSS attacks on your server/app
-* Make sure your inputs are escaped.
-    Don't construct strings straight from HTML forms into SQL statements.
-    So DON'T write:
-    ```js
-    var query = "select * from user where user.id = ' + req.params.id + '"
-    ```
-    Instead, use prepared statements like:
-    ```js
-    var query =
-        sql.preparedStatement('select * from user where user.id = ?', req.params.id)
-    ```
+* Make sure any user-inputted data is sanitised/escaped.
+    * When displaying user-inputted data such as comments, always sanitise inputs before rendering them.
+    * ELI5: Sanitising means making the code into a plain string so that it can't be executed by a browser.
 
 ## Indirect Secure Object Reference
 
