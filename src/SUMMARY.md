@@ -14,6 +14,6 @@
     - [Status Codes](./http/status_codes.md)
     - [Request Methods](./http/request_methods.md)
 - [Security](./security.md)
-    - [Attack Vectors](./security/attack_vectors.md)
+    - [CSRF, XSS, etc](./security/attack_vectors.md)
     - [DoS](./security/dos.md)
     - [Encoding vs Encryption](./security/encoding_encryption.md)

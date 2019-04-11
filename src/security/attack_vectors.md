@@ -1,4 +1,4 @@
-# Attack Vectors
+# CSRF, XSS, etc
 
 ## CSRF (Cross-site Request Forgery)
 
