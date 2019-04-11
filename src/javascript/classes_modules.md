@@ -98,5 +98,5 @@ person.birthday()
 var age = person.getAge()
 // but we cannot access name! So it's encapsulated :)
 ```
-* This is called the module pattern (or a factory, but I don't think we use that in this course).
+* This is called the module pattern (or a factory, but I don't think we use that name in this course).
 * Allows encapsulation. (`name` is not accessible; so therefore it is "private")
