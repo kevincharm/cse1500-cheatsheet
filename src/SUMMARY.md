@@ -7,6 +7,7 @@
     - [Objects](./javascript/objects.md)
 - [HTTP](./http.md)
     - [URL](./http/url.md)
+    - [Status Codes](./http/status_codes.md)
 - [Security](./security.md)
     - [Attack Vectors](./security/attack_vectors.md)
     - [DoS](./security/dos.md)
