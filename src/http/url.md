@@ -17,7 +17,8 @@
 * `cse1500.sendcroissants.me`
 * `really.long.and.nested.subdomains.co.uk`
 ### `<port>` *optional*
-* `80` (this is the **default** port when no port is specified)
+* `80` (this is the **default** port for **http** when no port is specified)
+* `443` (this is the **default** port for **https** when no port is specified)
 * `3000`
 * `5000`
 * ...and any other integer from `0` to `65535`
